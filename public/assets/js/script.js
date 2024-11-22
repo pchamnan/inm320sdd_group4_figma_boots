@@ -5,3 +5,16 @@ const hamBurger = document.querySelector(".toggle-btn");
 hamBurger.addEventListener("click", function () {
     document.querySelector("#sidebar").classList.toggle("expand");
 });
+
+
+// modal Trigger button
+const modalTrigger = document.querySelector('.trigger');
+
+modalTrigger.addEventListener("click", function (){
+    // To open the modal
+const modal = new bootstrap.Modal(document.getElementById('ticketModal'));
+modal.show();
+
+// To close the modal
+modal.hide();
+})
