@@ -4,11 +4,12 @@
   "description": "A school assignment transforming a figma design to a responsive web sample with bootstrap",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server --baseDir=\"public\""
   },
   "keywords": [],
   "author": "Group 4 INM",
-  "license": "ISC",
+  "license": "private",
+  "private": true,
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
