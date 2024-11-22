@@ -2,7 +2,6 @@
   "name": "inm320sdd_group4_figma_boots-1",
   "version": "1.0.0",
   "description": "A school assignment transforming a figma design to a responsive web sample with bootstrap",
-  "main": "index.js",
   "scripts": {
     "start": "lite-server --baseDir=\"public\""
   },
