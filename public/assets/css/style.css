@@ -358,3 +358,26 @@ input[type="checkbox"]{
         margin-bottom: 1rem;
     }
 }
+
+.card {
+    background-color: #fff;
+}
+
+.table td {
+    padding: 0.75rem 0;
+    vertical-align: middle;
+}
+
+
+
+/* Hover effect for rows */
+.table tr:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Make sure text doesn't wrap on mobile */
+@media (max-width: 576px) {
+    .text-nowrap {
+        white-space: nowrap;
+    }
+}
